@@ -2,7 +2,7 @@
 
 Unlocking Azure AI: A Beginner's Guide to Building AI-Powered Applications  
 
-This repository is your starting point for exploring Azure AI services. Learn how to build chatbots, translators, and other intelligent applications using Azure OpenAI, Translator, Cognitive Services, and more.
+This repository is your starting point for exploring Azure AI services. Learn how to build chatbots, translators, and other intelligent applications using Azure OpenAI, Azure AI Services, and more.
 
 ## Features
 - Step-by-step guides for building AI-powered applications
