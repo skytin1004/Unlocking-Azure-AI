@@ -1,8 +1,4 @@
-# Unlocking Azure AI  
-
-**Unlocking Azure AI: A Beginner's Guide to Building AI-Powered Applications**  
-
----
+# Unlocking Azure AI: A Beginner's Guide to Building AI-Powered Applications
 
 ## Welcome to Unlocking Azure AI!
 
