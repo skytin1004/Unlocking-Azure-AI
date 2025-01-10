@@ -6,12 +6,19 @@ This repository is designed for **beginners and enthusiasts exploring Azure AI S
 
 Unlocking Azure AI offers a hands-on approach to learning Azure AI, providing **step-by-step tutorials** and practical examples. By the end of this guide, you'll have the skills to build your own AI-powered applications using **Azure OpenAI** and other Azure AI Services.
 
-
 > [!NOTE]
 >
 > ## Why This Repository?
 >
 > As the maintainer of [Co-op Translator](https://github.com/Azure/co-op-translator), an open-source project that leverages Azure OpenAI and Azure Computer Vision, I’ve had the opportunity to explore Azure AI Services to solve real-world challenges. This guide reflects my journey and is designed to help you get started with building your own AI-powered solutions.
+
+## About the Levels
+
+Unlocking Azure AI is divided into **three levels**:
+
+- **Level 1**: Building a Basic Chatbot with Azure OpenAI
+- **Level 2**: Extending Functionality with Semantic Kernel
+- **Level 3**: Implementing Advanced Features like Image Translation
 
 ---
 ## Features
@@ -20,6 +27,13 @@ Unlocking Azure AI offers a hands-on approach to learning Azure AI, providing **
 - **Beginner-Friendly Resources**: Easy-to-follow guides and code samples for newcomers.
 
 ---
+
+## Prerequisites
+
+This guide is designed for beginners and enthusiasts, with the goal of minimizing prerequisites wherever possible.
+
+- git
+- VSCODE
 
 ## Table of Contents
 
