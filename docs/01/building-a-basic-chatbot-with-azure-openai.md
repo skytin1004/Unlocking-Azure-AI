@@ -27,6 +27,8 @@ By the end of this tutorial, you'll have a working chatbot that can generate res
 
 1. Login to your Azure account. If you don't have an account, you can sign up.
 
+    ![Select Signin](../../imgs/01/select-signin.png)
+
 ### Setting Up Your Azure AI Foundry Workspace
 
 1. Select **+ Create project** to create a new project.
