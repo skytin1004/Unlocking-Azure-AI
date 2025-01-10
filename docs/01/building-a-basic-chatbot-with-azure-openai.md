@@ -29,7 +29,20 @@ By the end of this tutorial, you'll have a working chatbot that can generate res
 
 ### Setting Up Your Azure AI Foundry Workspace
 
+1. Select **+ Create project** to create a new project.
 
+    ![Create Project](../../imgs/01/create-project.png)
+
+1. Perform the following tasks:
+
+    - Enter **Project name**. It must be a unique value.
+    - Select **Hub** you'd like to use (create a new one if needed).
+
+    ![Specify Project](../../imgs/01/specify-project.png)
+
+1. Select **Create**.
+
+    ![Select Create Project](../../imgs/01/select-create-project.png)
 
 ## Setting Up the Azure OpenAI Resource in Azure AI Foundry
 
