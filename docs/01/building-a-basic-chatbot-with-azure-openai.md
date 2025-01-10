@@ -15,14 +15,26 @@ By the end of this tutorial, you'll have a working chatbot that can generate res
 
 ## Table of Contents
 
-- [Step1: Setting Up the Auzre OpenAI Resource in Azure AI Foundry](#step1-setting-up-the-azure-openai-resource-in-azure-ai-foundry)
-- [Step2: Retrieving the API Key from Azure AI Foundry](#step2-retrieving-the-api-key-from-azure-ai-foundry)
+1. [Signing In and Setting Up Your Azure AI Foundry Workspace](#signing-in-and-setting-up-your-azure-ai-foundry-workspace)
+1. [Setting Up the Azure OpenAI Resource in Azure AI Foundry](#setting-up-the-azure-openai-resource-in-azure-ai-foundry)
+1. [Retrieving the API Key from Azure AI Foundry](#retrieving-the-api-key-from-azure-ai-foundry)
 
-## Step 1: Setting Up the Azure OpenAI Resource in Azure AI Foundry
+## Signing In and Setting Up Your Azure AI Foundry Workspace
+
+### Signing In to Azure AI Foundry
+
+1. Open the [Azure AI Foundry](https://ai.azure.com/?wt.mc_id=studentamb_279723) page in your web browser.
+
+1. Login to your Azure account. If you don't have an account, you can sign up.
+
+### Setting Up Your Azure AI Foundry Workspace
+
+
+
+## Setting Up the Azure OpenAI Resource in Azure AI Foundry
 
 In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI Foundry. Azure OpenAI is a pre-trained language model that can generate responses to user queries. We'll be using it in our chatbot.
 
-1. Open the [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/) page in your web browser.
+## Retrieving the API Key from Azure AI Foundry
 
-2. Login to your Azure account. If you don't have an account, you can sign up [here](https://azure.microsoft.com/try/cognitive-services/).
-
+sdsd
