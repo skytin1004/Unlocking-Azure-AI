@@ -60,5 +60,15 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
     ![Select Deploy](../../imgs/01/select-deploy-model.png)
 
+1. In this tutorial, we will deploy the GPT-4o model. Select **GPT-4o**.
+
+1. Select **Confirm**.
+
+    ![Select GPT-4o](../../imgs/01/select-4o-model.png)
+
+1. Select **Deploy**.
+
+    ![Select Deploy](../../imgs/01/select-deploy-4o.png)
 
 ## Retrieving the API Key from Azure AI Foundry
+
