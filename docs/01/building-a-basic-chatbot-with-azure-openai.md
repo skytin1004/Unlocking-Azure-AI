@@ -13,12 +13,6 @@ Once the API key is configured in your code, you will be able to integrate the l
 
 By the end of this tutorial, you'll have a working chatbot that can generate responses using the Azure OpenAI model.
 
-## Table of Contents
-
-1. [Signing In and Setting Up Your Azure AI Foundry Workspace](#signing-in-and-setting-up-your-azure-ai-foundry-workspace)
-1. [Setting Up the Azure OpenAI Resource in Azure AI Foundry](#setting-up-the-azure-openai-resource-in-azure-ai-foundry)
-1. [Retrieving the API Key from Azure AI Foundry](#retrieving-the-api-key-from-azure-ai-foundry)
-
 ## Signing In and Setting Up Your Azure AI Foundry Workspace
 
 ### Signing In to Azure AI Foundry
@@ -79,6 +73,69 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
     ![Model Details](../../imgs/01/model-details.png)
 
 1. On the model details page, you can view information about the model, including the API key. We will come back this page later to add the required information into the environment variables.
+
+## Setting up the project and install the libraries
+
+Now, you will create a folder to work in and set up a virtual environment to develop a program.
+
+### Creating a folder to work inside it
+
+1. Open a terminal window and type the following command to create a folder named *basic-chatbot* in the default path.
+
+    ```console
+    mkdir basic-chatbot
+    ```
+
+2. Type the following command inside your terminal to navigate to the *basic-chatbot* folder you created.
+
+    ```console
+    cd basic-chatbot
+    ```
+
+### Creating a virtual environment
+
+1. Type the following command inside your terminal to create a virtual environment named *.venv*.
+
+    ```console
+    python -m venv .venv
+    ```
+
+2. Type the following command inside your terminal to activate the virtual environment.
+
+    ```console
+    .venv\Scripts\activate.bat
+    ```
+
+> [!NOTE]
+> If it worked, you should see *(.venv)* before the command prompt.
+
+## Setting up the project in Visual Studio Code
+
+To create a basic chatbot program, you will need two files:
+
+1. **`basic-chatbot.py`**: This file will contain the code to interact with Azure resources.
+2. **`.env`**: This file will store the Azure credentials and configuration details.
+
+> [!NOTE]
+>
+> ### Purpose of the `.env` File
+>
+> The `.env` file is essential for storing the Azure information required to connect and use the resources you created.
+> By keeping the Azure credentials in the `.env` file, you can ensure a secure and organized way to manage sensitive information.
+
+### Setting up *basic-chatbot.py* file
+
+1. Open **Visual Studio Code**.
+
+2. Select **File** from the menu bar.
+
+3. Select **Open Folder**.
+
+4. Select the *basic-chatbot* folder that you created, which is located at *C:\Users\yourUserName\basic-chatbot*.
+
+5. In the left pane of Visual Studio Code, right-click and select **New File** to create a new file named *example.py*.
+
+6. Add the following code to the *example.py* file to import the required libraries.
 
 ## Storing Model Information in the `.env` File
 
