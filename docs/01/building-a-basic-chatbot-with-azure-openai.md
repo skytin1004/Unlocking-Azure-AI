@@ -50,6 +50,14 @@ By the end of this tutorial, you'll have a working chatbot that can generate res
 
 In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI Foundry. Azure OpenAI is a pre-trained language model that can generate responses to user queries. We'll be using it in our chatbot.
 
-## Retrieving the API Key from Azure AI Foundry
+1. Select **Models + endpoints** from the left side menu.
 
-sdsd
+    ![Select Models + Endpoints](../../imgs/01/select-models-endpoints.png)
+
+1. On this page, you can deploy language models and set up Azure AI resources. In this step, we will deploy the Azure OpenAI GPT-4 language model. Select **+ Deploy model**.
+
+1. Selet **Deploy base model**.
+
+    ![Select Deploy](../../imgs/01/select-deploy-model.png)
+
+## Retrieving the API Key from Azure AI Foundry
