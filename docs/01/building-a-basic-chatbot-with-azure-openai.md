@@ -233,3 +233,14 @@ Now, you will retrieve the required information from Azure AI Foundry and update
 
 1. Paste this information into the `.env` file in the respective placeholders.
 
+## Running the Chatbot Program
+
+1. Type the following command inside your terminal to run the program and see if it can answer questions.
+
+    ```console
+    python example.py
+    ```
+
+1. Interact with the chatbot by typing your questions or messages. The chatbot will generate responses based on the Azure OpenAI model you deployed.
+
+    ![Chatbot Running](../../imgs/01/chatbot-running.png)
