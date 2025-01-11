@@ -78,7 +78,7 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 `
     ![Model Details](../../imgs/01/model-details.png)
 
-1. On the model details page, you can view information about the model, including the API key.
+1. On the model details page, you can view information about the model, including the API key. We will come back this page later to add the required information into the environment variables.
 
 ## Storing Model Information in the `.env` File
 
