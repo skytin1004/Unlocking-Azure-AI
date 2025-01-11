@@ -56,7 +56,7 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
 1. On this page, you can deploy language models and set up Azure AI resources. In this step, we will deploy the Azure OpenAI GPT-4 language model. Select **+ Deploy model**.
 
-1. Selet **Deploy base model**.
+1. Select **Deploy base model**.
 
     ![Select Deploy](../../imgs/01/select-deploy-model.png)
 
