@@ -60,4 +60,5 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
     ![Select Deploy](../../imgs/01/select-deploy-model.png)
 
+
 ## Retrieving the API Key from Azure AI Foundry
