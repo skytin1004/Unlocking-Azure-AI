@@ -74,11 +74,11 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
 1. On the model details page, you can view information about the model, including the API key. We will come back this page later to add the required information into the environment variables.
 
-## Setting up the project and install the libraries
+## Setting Up the Project and Install the Libraries
 
 Now, you will create a folder to work in and set up a virtual environment to develop a program.
 
-### Creating a folder to work inside it
+### Creating a Folder to Work Inside It
 
 1. Open a terminal window and type the following command to create a folder named *basic-chatbot* in the default path.
 
@@ -92,7 +92,7 @@ Now, you will create a folder to work in and set up a virtual environment to dev
     cd basic-chatbot
     ```
 
-### Creating a virtual environment
+### Creating a Virtual Environment
 
 1. Type the following command inside your terminal to create a virtual environment named *.venv*.
 
@@ -109,7 +109,7 @@ Now, you will create a folder to work in and set up a virtual environment to dev
 > [!NOTE]
 > If it worked, you should see *(.venv)* before the command prompt.
 
-### Install the required packages
+### Installing the Required Packages
 
 1. Type the following commands inside your terminal to install the required packages.
 
@@ -120,7 +120,7 @@ Now, you will create a folder to work in and set up a virtual environment to dev
     pip install openai python-dotenv
     ```
 
-## Setting up the project in Visual Studio Code
+## Setting up the Project in Visual Studio Code
 
 To create a basic chatbot program, you will need two files:
 
@@ -134,7 +134,7 @@ To create a basic chatbot program, you will need two files:
 > The `.env` file is essential for storing the Azure information required to connect and use the resources you created.
 > By keeping the Azure credentials in the `.env` file, you can ensure a secure and organized way to manage sensitive information.
 
-### Setting up *example.py* file
+### Setting Up *example.py* File
 
 1. Open **Visual Studio Code**.
 
@@ -191,7 +191,7 @@ To create a basic chatbot program, you will need two files:
         print("Chatbot:", response.choices[0].message.content.strip())
     ```
 
-### Set up *.env* file
+### Setting Up *.env* File
 
 To set up your development environment, we will create a `.env` file and store the necessary credentials directly.
 
@@ -217,16 +217,19 @@ To set up your development environment, we will create a `.env` file and store t
     AZURE_OPENAI_API_VERSION="your_api_version"
     ```
 
-### Retrieving the Information
+### Retrieving Environment Variables from Azure AI Foundry
+
+Now, you will retrieve the required information from Azure AI Foundry and update the `.env` file.
 
 1. Go to the **Models + endpoints** page and select your deployed model.  
     ![Model Deployed](../../imgs/01/select-model-deployed.png)
 
-2. On the **Model Details** page, copy the following information:  
-    - **API key**  
-    - **Endpoint**  
-    - **Model ID**  
-    - **Model name**  
+1. On the **Model Details** page, copy the following information in to the `.env` file.:  
+    - **AZURE_OPENAI_API_KEY**  
+    - **AZURE_OPENAI_ENDPOINT**  
+    - **AZURE_OPENAI_MODEL_NAME**  
+    - **AZURE_OPENAI_CHAT_DEPLOYMENT_NAME**  
     ![Model Details](../../imgs/01/model-details.png)
 
-3. Paste this information into the `.env` file in the respective placeholders.
+1. Paste this information into the `.env` file in the respective placeholders.
+
