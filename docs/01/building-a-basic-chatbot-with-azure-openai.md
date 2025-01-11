@@ -114,7 +114,7 @@ Now, you will create a folder to work in and set up a virtual environment to dev
 To create a basic chatbot program, you will need two files:
 
 1. **`example.py`**: This file will contain the code to interact with Azure resources.
-2. **`.env`**: This file will store the Azure credentials and configuration details.
+1. **`.env`**: This file will store the Azure credentials and configuration details.
 
 > [!NOTE]
 >
@@ -127,35 +127,35 @@ To create a basic chatbot program, you will need two files:
 
 1. Open **Visual Studio Code**.
 
-2. Select **File** from the menu bar.
+1. Select **File** from the menu bar.
 
-3. Select **Open Folder**.
+1. Select **Open Folder**.
 
     ![Open Folder](../../imgs/01/open-project-folder.png)
 
-4. Select the *basic-chatbot* folder that you created, which is located at *C:\Users\yourUserName\basic-chatbot*.
+1. Select the *basic-chatbot* folder that you created, which is located at *C:\Users\yourUserName\basic-chatbot*.
 
-5. In the left pane of Visual Studio Code, right-click and select **New File** to create a new file named *example.py*.
+1. In the left pane of Visual Studio Code, right-click and select **New File** to create a new file named *example.py*.
 
     ![Create New File](../../imgs/01/create-new-file.png)
 
-6. Add the following code to the *example.py* file to import the required libraries.
+1. Add the following code to the *example.py* file to import the required libraries.
 
 ### Set up *.env* file
 
-1. In the left pane of Visual Studio Code, right-click and select **New File** to create a new file named *config.py*.
+> [!NOTE]
+> Complete folder structure:
+>
+> ```text
+> └── YourUserName
+> .    └── basic-chatbot
+> .        ├── example.py
+> .        └── .env
+> ```
 
-    > [!NOTE]
-    > Complete folder structure:
-    >
-    > ```text
-    > └── YourUserName
-    > .    └── basic-chatbot
-    > .        ├── example.py
-    > .        └── config.py
-    > ```
+1. In the left pane of Visual Studio Code, right-click and select **New File** to create a new file named *.env*.
 
-2. Add the following code to the *.env* file to include your Azure information.
+1. Add the following code to the *.env* file to include your Azure information.
 
     ```plaintext
     AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
