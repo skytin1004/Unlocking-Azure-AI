@@ -141,7 +141,48 @@ To create a basic chatbot program, you will need two files:
 
 1. Add the following code to the *example.py* file to import the required libraries.
 
+    ```python
+    from openai import AzureOpenAI
+    from dotenv import load_dotenv
+    import os
+    
+    # Load environment variables from the .env file
+    load_dotenv()
+    
+    # Retrieve environment variables
+    AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+    AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+    AZURE_OPENAI_MODEL_NAME = os.getenv("AZURE_OPENAI_MODEL_NAME")
+    AZURE_OPENAI_CHAT_DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT_NAME")
+    AZURE_OPENAI_API_VERSION = os.getenv("AZURE_OPENAI_API_VERSION")
+    
+    # Initialize Azure OpenAI client
+    client = AzureOpenAI(
+        api_key=AZURE_OPENAI_API_KEY,
+        api_version=AZURE_OPENAI_API_VERSION,
+        base_url=f"{AZURE_OPENAI_ENDPOINT}/openai/deployments/{AZURE_OPENAI_CHAT_DEPLOYMENT_NAME}"
+    )
+    
+    print("Chatbot: Hello! How can I assist you today? Type 'exit' to end the conversation.")
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == "exit":
+            print("Chatbot: Ending the conversation. Have a great day!")
+            break
+        response = client.chat.completions.create(
+            model=AZURE_OPENAI_MODEL_NAME,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": user_input}
+            ],
+            max_tokens=200
+        )
+        print("Chatbot:", response.choices[0].message.content.strip())
+    ```
+
 ### Set up *.env* file
+
+To set up your development environment, we will create a `.env` file and store the necessary credentials directly.
 
 > [!NOTE]
 > Complete folder structure:
@@ -164,28 +205,6 @@ To create a basic chatbot program, you will need two files:
     AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="your_deployment_name"
     AZURE_OPENAI_API_VERSION="your_api_version"
     ```
-
-## Storing Model Information in the `.env` File
-
-To set up your development environment, we will create a `.env` file and store the necessary credentials directly.
-
-### Steps to Create the `.env` File in Visual Studio Code
-
-1. Open your project in **Visual Studio Code**.
-2. Create a new file in the root directory and name it `.env`.
-3. Copy the following template into the `.env` file and replace the placeholder values with the information you retrieved:
-
-    ```plaintext
-    AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
-    AZURE_OPENAI_ENDPOINT="https://your_azure_openai_endpoint"
-    AZURE_OPENAI_MODEL_NAME="your_model_name"
-    AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="your_deployment_name"
-    AZURE_OPENAI_API_VERSION="your_api_version"
-    ```
-
-4. Save the file. The `.env` file will now be used to securely manage your credentials.
-
----
 
 ### Retrieving the Information
 
