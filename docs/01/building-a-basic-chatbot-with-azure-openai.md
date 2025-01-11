@@ -74,12 +74,44 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
     ![Model Deployed](../../imgs/01/model-deployed.png)
 
-## Retrieving the API Key from Azure AI Foundry
-
 1. Now that the model is deployed, you can retrieve the API key needed to connect the model to your chatbot application. Select the model you deployed on the **Models + endpoints** page.
 `
+    ![Model Details](../../imgs/01/model-details.png)
+
+1. On the model details page, you can view information about the model, including the API key.
+
+## Storing Model Information in the `.env` File
+
+To set up your development environment, we will create a `.env` file and store the necessary credentials directly.
+
+### Steps to Create the `.env` File in Visual Studio Code
+
+1. Open your project in **Visual Studio Code**.
+2. Create a new file in the root directory and name it `.env`.
+3. Copy the following template into the `.env` file and replace the placeholder values with the information you retrieved:
+
+    ```plaintext
+    AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
+    AZURE_OPENAI_ENDPOINT="https://your_azure_openai_endpoint"
+    AZURE_OPENAI_MODEL_NAME="your_model_name"
+    AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="your_deployment_name"
+    AZURE_OPENAI_API_VERSION="your_api_version"
+    ```
+
+4. Save the file. The `.env` file will now be used to securely manage your credentials.
+
+---
+
+### Retrieving the Information
+
+1. Go to the **Models + endpoints** page and select your deployed model.  
     ![Model Deployed](../../imgs/01/select-model-deployed.png)
 
-1. On the model details page, you can view information about the model, including the API key. First, we will learn how to store important information, such as the API key, in environment variables. Then, we will return to this page to copy the API key and any other necessary details.
-
+2. On the **Model Details** page, copy the following information:  
+    - **API key**  
+    - **Endpoint**  
+    - **Model ID**  
+    - **Model name**  
     ![Model Details](../../imgs/01/model-details.png)
+
+3. Paste this information into the `.env` file in the respective placeholders.
