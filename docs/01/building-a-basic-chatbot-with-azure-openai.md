@@ -109,6 +109,17 @@ Now, you will create a folder to work in and set up a virtual environment to dev
 > [!NOTE]
 > If it worked, you should see *(.venv)* before the command prompt.
 
+### Install the required packages
+
+1. Type the following commands inside your terminal to install the required packages.
+
+   - **openai**: A Python library that provides integration with the Azure OpenAI API.  
+   - **python-dotenv**: A Python library for managing environment variables stored in an *.env* file.
+
+    ```console
+    pip install openai python-dotenv
+    ```
+
 ## Setting up the project in Visual Studio Code
 
 To create a basic chatbot program, you will need two files:
