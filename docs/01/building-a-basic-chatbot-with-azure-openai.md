@@ -70,5 +70,16 @@ In this step, you'll learn how to set up the Azure OpenAI resource in Azure AI F
 
     ![Select Deploy](../../imgs/01/select-deploy-4o.png)
 
+1. The model will be deployed. Once the deployment is complete, you will see the model listed on the **Models + endpoints** page.
+
+    ![Model Deployed](../../imgs/01/model-deployed.png)
+
 ## Retrieving the API Key from Azure AI Foundry
 
+1. Now that the model is deployed, you can retrieve the API key needed to connect the model to your chatbot application. Select the model you deployed on the **Models + endpoints** page.
+`
+    ![Model Deployed](../../imgs/01/select-model-deployed.png)
+
+1. On the model details page, you can view information about the model, including the API key. First, we will learn how to store important information, such as the API key, in environment variables. Then, we will return to this page to copy the API key and any other necessary details.
+
+    ![Model Details](../../imgs/01/model-details.png)
