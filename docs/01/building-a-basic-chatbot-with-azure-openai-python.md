@@ -3,7 +3,7 @@
 In this turorial, we'll build a simple chatbot that uses Azure OpenAI to generate responses to user queries.
 
 > [!NOTE]
-> You can find the full example of this chatbot, including the code and .env template, Link to the [GitHub repository](../../src/01/basic-chatbot/python/example.py)
+> You can find the full example of this chatbot, including the code and .env template, Link to the [example.py](../../src/01/basic-chatbot/python/example.py) and [.env template](../../src/01/basic-chatbot/python/.env.template).
 
 ## Overview
 
