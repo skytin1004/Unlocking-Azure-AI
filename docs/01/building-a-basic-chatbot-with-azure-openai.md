@@ -2,6 +2,9 @@
 
 In this turorial, we'll build a simple chatbot that uses Azure OpenAI to generate responses to user queries.
 
+> [!NOTE]
+> You can find the full example of this chatbot, including the code and .env template, Link to the [GitHub repository](../../src/01/basic-chatbot/python/example.py)
+
 ## Overview
 
 To create a basic chatbot, we need to set up a language model resource that enables conversation capabilities. In this tutorial, we will:
@@ -210,11 +213,11 @@ To set up your development environment, we will create a `.env` file and store t
 1. Add the following code to the *.env* file to include your Azure information.
 
     ```plaintext
-    AZURE_OPENAI_API_KEY="your_azure_openai_api_key"
-    AZURE_OPENAI_ENDPOINT="https://your_azure_openai_endpoint"
-    AZURE_OPENAI_MODEL_NAME="your_model_name"
-    AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="your_deployment_name"
-    AZURE_OPENAI_API_VERSION="your_api_version"
+    AZURE_OPENAI_API_KEY=your_azure_openai_api_key
+    AZURE_OPENAI_ENDPOINT=https://your_azure_openai_endpoint
+    AZURE_OPENAI_MODEL_NAME=your_model_name
+    AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=your_deployment_name
+    AZURE_OPENAI_API_VERSION=your_api_version
     ```
 
 ### Retrieving Environment Variables from Azure AI Foundry
