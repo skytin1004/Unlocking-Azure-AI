@@ -6,12 +6,6 @@ This repository is designed for **beginners and enthusiasts exploring Azure AI S
 
 Unlocking Azure AI offers a hands-on approach to learning Azure AI, providing **step-by-step tutorials** and practical examples. By the end of this guide, you'll have the skills to build your own AI-powered applications using **Azure OpenAI** and other Azure AI Services.
 
-> [!NOTE]
->
-> ## Why This Repository?
->
-> As the maintainer of [Co-op Translator](https://github.com/Azure/co-op-translator), an open-source project that leverages Azure OpenAI and Azure Computer Vision, I’ve had the opportunity to explore Azure AI Services to solve real-world challenges. This guide reflects my journey and is designed to help you get started with building your own AI-powered solutions.
-
 ## About the Levels
 
 Unlocking Azure AI is divided into **three levels**:
@@ -39,7 +33,7 @@ This guide is designed for beginners and enthusiasts, with the goal of minimizin
 
 | **Level**   | **Topic**                                                       | **Description**                                                | **Status**          |
 |-------------|-----------------------------------------------------------------|---------------------------------------------------------------|---------------------|
-| **Level 1** | [Building a Basic Chatbot with Azure OpenAI](docs/01/building-a-basic-chatbot-with-azure-openai.md) | Learn how to create a basic chatbot using Azure OpenAI GPT models. | **Available**       |
+| **Level 1** | [Building a Basic Chatbot with Azure OpenAI](docs/01/building-a-basic-chatbot-with-azure-openai-python.md) | Learn how to create a basic chatbot using Azure OpenAI GPT models. | **Available**       |
 | **Level 2** | [Extending Functionality with Semantic Kernel](docs/02/extending-chatbot-functionality-with-semantic-kernel.md) | Add advanced features like memory and orchestration to your chatbot. | **Coming Soon**     |
 | **Level 3** | [Implementing Advanced Features like Image Translation using multiple Azure AI Services](docs/03/implementing-advanced-features-like-image-translation.md) | Use Azure Computer Vision and Azure OpenAI to handle image-based text translation. | **Coming Soon**     |
 ## Contributions
